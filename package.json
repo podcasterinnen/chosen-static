@@ -1,0 +1,14 @@
+{
+  "name": "chosen-static",
+  "version": "0.0.1",
+  "description": "podcasterinnen.org",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --port=7000"
+  },
+  "author": "Daniela Ishorst",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
+}
