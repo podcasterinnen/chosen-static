@@ -161,7 +161,32 @@ p {
 }
 
 
-.loginpage_button {
-  font-size: 20px;
+.loginpage_button__login {
   background-color: #7797ae;
+  font-family: "Glacial", sans-serif;
+  font-size: 20px;
+}
+
+.loginpage_button__registry {
+  background-color: #c8d5de;
+  font-family: "Glacial", sans-serif;
+  font-size: 20px;
+}
+
+.loginpage_label__email {
+  font-family: "Glacial", sans-serif;
+}
+
+.loginpage_label_passwort {
+  font-family: "Glacial", sans-serif;
+}
+
+.loginpage_label__confirm {
+  font-family: "Glacial" sans-serif;
+}
+
+.loginpage_button__submit {
+  background-color: #7797ae;
+  font-family: "Glacial", sans-serif;
+  font-size: 20px;
 }
