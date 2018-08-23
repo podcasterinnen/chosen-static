@@ -28,6 +28,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 /* typography */
 body {
+  background-color: #ebeef1;
   font-family: "Glacial", sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -160,8 +161,94 @@ p {
   text-align: right;
 }
 
+.loginpage {
+  margin:100px auto 25px auto;
+  padding: 0 120px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+div {
+  border: 2px 2px 2px 2px;
+  border-color: black;
+}
 
 .loginpage_button {
+  border: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-family: "Glacial", sans-serif;
   font-size: 20px;
-  background-color: #7797ae;
+  margin: 20px 0 0 0;
+  padding: 18px 0;
+  text-align: center;
+  width: 50%;
+}
+
+.loginpage_button--login {
+  background-color: #ffffff;
+
+}
+
+.loginpage_button--registry {
+  background-color: #c8d5de;
+  cursor: pointer;
+}
+
+.loginpage_wrapper {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.loginpage_label {
+  display: block;
+  font-family: "Glacial", sans-serif;
+  font-size: 14px;
+  line-height: 1.5em;
+  margin: 0 114px 0 0;
+}
+
+.loginpage_input {
+  background-color: #e6ecf0;
+  border: none;
+  border-color: var(--color-blue);
+  border-radius: 4px;
+  font-family: "Glacial", sans-serif;
+  font-size: 20px;
+  margin: 0 0 20px 0;
+  padding: 20px 5px 10px 5px;
+  width: 100%;
+}
+
+.loginpage_form {
+  background-color: #ffffff;
+  padding: 40px 20px 20px 20px;
+}
+
+.loginpage_button__submit {
+  background-color: var(--color-blue);
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "Glacial", sans-serif;
+  font-size: 20px;
+  margin: 20px 0 0 0;
+  padding: 20px 70px 20px 70px;
+  text-align: center;
+  transition: all .3s;
+  width: 100%;
+}
+
+.loginpage_button__submit:hover {
+  /* background-color: #ae7797; */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transform: translateY(1px);
+}
+
+.loginpage_button__submit:active {
+  /* background-color: #ae7797; */
+  box-shadow: none;
+  transform: translateY(2px);
 }
