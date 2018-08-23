@@ -10,26 +10,28 @@
   <body>
     <section class="loginpage">
       <h1>podcasterinnen.org</h1>
+      <div class="loginpage_wrapper">
         <nav class="loginpage_nav">
-          <button class="loginpage_button__login">Login</button>
-          <button class="loginpage_button__registry">Registrieren</button>
+          <button class="loginpage_button loginpage_button--login">Login</button><!--
+       --><button class="loginpage_button loginpage_button--registry">Registrieren</button>
         </nav>
-        <form>
+        <form class="loginpage_form">
           <ul>
             <li>
-             <label  class= "loginpage_label__email" for="email">Email</label>
-             <input class= "loginpage_input" id="email" type="email" name="usermail" placeholder="janedoe@mail.com" required>
+             <label  class="loginpage_label" for="email">E-Mail</label>
+             <input class="loginpage_input" id="email" type="email" name="usermail" placeholder="janedoe@mail.com" required>
             </li>
             <li>
-             <label class= "loginpage_label__passwort" for="passwort">Passwort</label>
-             <input class= "loginpage_input" id="passwort"ctype="Passwort" name="passwort" placeholder="Passwort" requierd>
+             <label class="loginpage_label" for="passwort">Passwort</label>
+             <input class="loginpage_input" id="passwort"ctype="Passwort" name="passwort" placeholder="Passwort" requierd>
            </li>
            <li>
-             <label class= "loginpage_label__confirm" for="Passwort bestätigen">Passwort bestätigen</label>
-             <input class= "loginpage_input" id="passwort"ctype="Passwort" name="passwort" placeholder="Passwort" required>
+             <label class="loginpage_label" for="Passwort bestätigen">Passwort bestätigen</label>
+             <input class="loginpage_input" id="passwort"ctype="Passwort" name="passwort" placeholder="Passwort" required>
            </li>
           </ul>
           <button class="loginpage_button__submit" type="submit">Submit</button>
         </form>
+      </div>
     </section>
   </body>
